@@ -5,6 +5,7 @@ interface buscadorProps {
   busca: string;
   setBusca: React.Dispatch<React.SetStateAction<string>>;
 }
+a
 
 export default function Buscador({ busca, setBusca }: buscadorProps){
   return(
